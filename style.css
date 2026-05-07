@@ -1,8 +1,20 @@
-.title {
-color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.secondary{
-    color: yellow;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fcfcfc;
+  color: #333;
+  line-height: 1.6;
 }
 
+.hero {
+  height: 100vh; /* Takes up full screen height */
+  display: flex;
+  align-items: center;
+  padding: 0 25%;
+  background-color: #ffffff;
+}
